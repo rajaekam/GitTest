@@ -17,6 +17,12 @@ private void empdetails(String name,float sal) {
 System.out.println("employee ph:"+ph  +"\n employee accno:"+accno +"\n "
 		+ "employee address:"+address);
 }
+private void employeedetails(int ctc) {
+	System.out.println("employee ctc:"+ctc);
+
+	
+}
+	
 	public static void main(String[] args) {
 		GitProject e=new GitProject ();
 		e.empdetails(12345);
